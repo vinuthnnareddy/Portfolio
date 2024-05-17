@@ -1,0 +1,260 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>MY Portfolio</title>
+    <link rel="stylesheet" href="style.css" />
+    <script
+      src="https://kit.fontawesome.com/e1cda8346c.js"
+      crossorigin="anonymous"
+    ></script>
+  </head>
+  <body>
+    <div id="header">
+      <div class="container">
+        <nav>
+          <img src="logo-name.png" class="logo" alt="logo" />
+          <ul id="sidemenu">
+            <li><a href="#header">Home</a></li>
+            <li><a href="#about">About</a></li>
+            <li><a href="#portfolio">Services</a></li>
+            <li><a href="#services">Portfolio</a></li>
+            <li><a href="#contact">Contact</a></li>
+            <i class="fa fa-regular fa-circle-xmark" onclick="closemenu()"></i>
+          </ul>
+          <i class="fa fa-solid fa-bars" onclick="openmenu()"></i>
+        </nav>
+        <div class="header-text">
+          <p>STUDENT</p>
+          <h1>
+            I'm an <span>enthusiast learner</span><br />
+            with great <span>passion</span>
+          </h1>
+        </div>
+      </div>
+    </div>
+    <!-- -------------ABOUT------------ -->
+    <div id="about">
+      <div class="container">
+        <div class="row">
+          <div class="about-col-1">
+            <img src="girl.png" />
+          </div>
+          <div class="about-col-2">
+            <h1 class="subtitle">About Me</h1>
+            <p>
+              Seeking an entry level opportunity within the organisation where I
+              can utilise my skills and enhance learning in the field of
+              work.Capabilities of mastering new technologies.
+            </p>
+            <div class="about-titles">
+              <p
+                class="about-links active-links"
+                onclick="opentab('Education')"
+              >
+                Education
+              </p>
+              <p class="about-links" onclick="opentab('Skills')">Skills</p>
+              <p class="about-links" onclick="opentab('Intrests')">Intrests</p>
+            </div>
+            <div class="about-contents active-tab" id="Education">
+              <ul>
+                <li>
+                  <span>BACHELOR'S DEGREE(CSE)</span><br /><br />CMR INSTITUTE
+                  OF TECHNOLOGY<br /><br />
+                  2021-2025 &nbsp;&nbsp;&nbsp; &nbsp;&nbsp;&nbsp;&nbsp;CGPA-8.1
+                </li>
+                <li>
+                  <span>INTERMEDIATE(MPC)</span><br /><br />NARAYANA JUNIOR
+                  COLLEGE<br /><br />2019-2021 &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;
+                  &nbsp;&nbsp;CGPA-9.94
+                </li>
+                <li>
+                  <span>SECONDARY SCHOOL(SSC)</span><br /><br />RAO'S HIGH
+                  SCHOOL<br /><br />2018-2019 &nbsp;&nbsp;&nbsp;
+                  &nbsp;&nbsp;&nbsp;&nbsp;CGPA-10
+                </li>
+              </ul>
+            </div>
+            <div class="about-contents" id="Skills">
+              <ul>
+                <li><span>Full Stack Web Development</span></li>
+                <li><span>JAVA</span></li>
+                <li><span>PYTHON</span></li>
+                <li><span>SQL</span></li>
+              </ul>
+            </div>
+            <div class="about-contents" id="Intrests">
+              <ul>
+                <li><span>Drawing</span></li>
+                <li><span>Expanding Linguistic Skills</span></li>
+                <li><span>Performing Plays</span></li>
+              </ul>
+            </div>
+          </div>
+        </div>
+      </div>
+    </div>
+    <!-- ---------services------------- -->
+    <div id="services">
+      <div class="container">
+        <h1>Internships</h1>
+        <div class="services-list">
+          <div>
+            <i class="fa-brands fa-java"></i>
+            <h2>JAVA &nbsp;- By Edugene Technologies</h2>
+            <p>
+              I completed Java from Edugene Technologies for a period of two
+              months of internship. On successful completion of this internship.
+              I received internship certificate from Edigine Technologies
+            </p>
+          </div>
+          <div>
+            <i class="fa-solid fa-certificate"></i>
+            <h2>AICTE VIRTUAL INTERNSHIP &nbsp;- By EDUSKILLS</h2>
+            <p>
+              I have actively engaged in AICTE Eddu skills virtual internship in
+              data analytics. Successfully completed all the modules in the
+              internship programme gaining experience in analytic process
+              automation
+            </p>
+          </div>
+        </div>
+      </div>
+    </div>
+    <!-- -----------Portfolio------------ -->
+    <div id="portfolio">
+      <div class="container">
+        <h1>My Projects</h1>
+        <div class="work-list">
+          <div class="work">
+            <img src="work.png" />
+            <div class="layer">
+              <h3>Amazon Clone</h3>
+              <p>
+                This is a HTML and CSS-based replica mirrors the iconic Amazon
+                interface with meticulous attention to detail. The Amazon clone
+                project aims to delve into the visual aesthetics and structural
+                elements that make Amazon's interface instantly recognizable and
+                user-friendly.By closely studying the layout,typography,color
+                scheme and interactive components of the original Amazon
+                website, this clone seeks to replicate the overall look and
+                feel,providing a hands-on exploration of web design principles
+                and techniques.
+              </p>
+              <a href="https://vinuthnnareddy.github.io/Amazon-Clone/"
+                ><i class="fa-solid fa-link"></i
+              ></a>
+            </div>
+          </div>
+          <div class="work">
+            <img src="work-1.png" />
+            <div class="layer">
+              <h3>My Portfolio</h3>
+              <p>
+                Welcome to my digital playground! Dive into my world where
+                creativity meets functionality. Through a seamless fusion of
+                HTML, CSS, and JavaScript, I've crafted a captivating portfolio
+                that reflects my passion for design and development. With a keen
+                eye for detail and a commitment to innovation, I strive to
+                create immersive experiences that leave a lasting
+                impression.From sleek layouts to dynamic animations, my
+                portfolio showcases the intersection of artistry and technology.
+                Let's connect and bring your vision to life in the digital
+                realm.
+              </p>
+              <a href="#"><i class="fa-solid fa-link"></i></a>
+            </div>
+          </div>
+        </div>
+        <a href="#" class="btn">See more</a>
+      </div>
+    </div>
+    <!-- --------contact--------- -->
+    <div id="contact">
+      <div class="container">
+        <div class="row">
+          <div class="col-left">
+            <h1>Contact Me</h1>
+            <p>
+              <i class="fa-regular fa-paper-plane"></i
+              >21R01A0541@cmritonline.ac.in
+            </p>
+            <p><i class="fa-solid fa-phone"></i>9849208421</p>
+            <div class="icons">
+              <a href=""><i class="fa-brands fa-linkedin"></i></a>
+              <a href=""><i class="fa-brands fa-github"></i></a>
+              <a href=""><i class="fa-solid fa-phone"></i></a>
+            </div>
+            <a
+              href="541Resume.pdf"
+              download
+              class="btn btn2"
+              >Download Resume</a
+            >
+          </div>
+          <div class="col-right">
+            <form name="submit-to-google-sheet">
+              <input type="text" name="Name" placeholder="Your Name" required />
+              <input type="email" name="E-mail" placeholder="Your E-mail" required/>
+              <textarea name="Message" rows="6" placeholder="Your Message"></textarea>
+              <button type="submit" class="btn btn2">Submit</button>
+            </form>
+            <span id="msg"></span>
+          </div>
+        </div>
+      </div>
+      <div class="copyright">
+        <p>
+          Copyright @vinuthnnareddy. Portfolio Made with &nbsp;<i
+            class="fa-solid fa-heart"
+          ></i>
+        </p>
+      </div>
+    </div>
+
+    <script>
+      var aboutlinks = document.getElementsByClassName("about-links");
+      var aboutcontents = document.getElementsByClassName("about-contents");
+
+      function opentab(tabname) {
+        for (link of aboutlinks) {
+          link.classList.remove("active-links");
+        }
+        for (content of aboutcontents) {
+          content.classList.remove("active-tab");
+        }
+        event.currentTarget.classList.add("active-links");
+        document.getElementById(tabname).classList.add("active-tab");
+      }
+    </script>
+    <script>
+      var menuside = document.getElementById("sidemenu");
+      function openmenu() {
+        menuside.style.right = "0";
+      }
+      function closemenu() {
+        menuside.style.right = "-200px";
+      }
+    </script>
+    <script>
+      const scriptURL =
+        "https://script.google.com/macros/s/AKfycbzl9k-R_ajXGNUfotg6UJxXigUAj5YLejvvCMIquQc6q9zOrtvrzq8OG_Jq4HRtolvXmQ/exec";
+      const form = document.forms["submit-to-google-sheet"];
+      const msg = document.getElementById("msg")
+
+      form.addEventListener("submit", (e) => {
+        e.preventDefault();
+        fetch(scriptURL, { method: "POST", body: new FormData(form) })
+          .then((response) =>{ msg.innerHTML = "Successfully Submitted!"
+        setTimeout(function(){
+          msg.innerHTML=""
+        },5000)
+        form.reset()
+      })
+          .catch((error) => console.error("Error!", error.message));
+      });
+    </script>
+  </body>
+</html>
